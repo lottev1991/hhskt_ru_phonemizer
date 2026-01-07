@@ -26,16 +26,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Microsoft.ML.OnnxRuntime">
-      <HintPath>..\OpenUtau\OpenUtau\bin\Debug\net8.0\Microsoft.ML.OnnxRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenUtau">
-      <HintPath>..\OpenUtau\OpenUtau\bin\Debug\net8.0\OpenUtau.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenUtau.Core">
-      <HintPath>..\OpenUtau\OpenUtau\bin\Debug\net8.0\OpenUtau.Core.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
