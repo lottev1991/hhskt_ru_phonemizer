@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -24,6 +24,18 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.ML.OnnxRuntime">
+      <HintPath>..\OpenUtau\OpenUtau\bin\Debug\net8.0\Microsoft.ML.OnnxRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenUtau">
+      <HintPath>..\OpenUtau\OpenUtau\bin\Debug\net8.0\OpenUtau.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenUtau.Core">
+      <HintPath>..\OpenUtau\OpenUtau\bin\Debug\net8.0\OpenUtau.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
